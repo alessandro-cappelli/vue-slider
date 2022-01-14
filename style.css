@@ -1,0 +1,46 @@
+.ms_container{
+    width: 60%;
+    margin: 0 auto;
+}
+  
+.myheight{
+    height: 500px;  
+    position: relative; 
+}
+  
+#title{
+  top: 80%;
+  left:5%;
+}
+  
+.myheight img{
+  height: 100%;
+  width: 100%;
+}
+  
+.mystyle{
+  height:calc(500px /5);
+  width: 100%;
+}
+  
+.d_mynone{
+  display: none;
+}
+  
+#arrow-up{
+  top: 5px;
+  left: 41%;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.533);
+}
+  
+#arrow-down{
+  bottom: 5px;
+  left: 41%;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.533);
+}
+  
+#arrow-up:hover, #arrow-down:hover{
+  color: white;
+}
